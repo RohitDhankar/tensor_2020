@@ -1,0 +1,429 @@
+base) dhankar@dhankar-1:~/_dc_all/tf$ conda create -n tensorflow tensorflow
+Collecting package metadata (current_repodata.json): done
+Solving environment: done
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 4.7.12
+  latest version: 4.8.3
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+
+
+## Package Plan ##
+
+  environment location: /home/dhankar/anaconda3/envs/tensorflow
+
+  added / updated specs:
+    - tensorflow
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    _tflow_select-2.3.0        |              mkl           2 KB
+    absl-py-0.9.0              |           py38_0         165 KB
+    astunparse-1.6.3           |             py_0          17 KB
+    blinker-1.4                |           py38_0          22 KB
+    c-ares-1.15.0              |    h7b6447c_1001          89 KB
+    cachetools-3.1.1           |             py_0          14 KB
+    cffi-1.14.0                |   py38he30daa8_1         225 KB
+    chardet-3.0.4              |        py38_1003         174 KB
+    click-7.1.2                |             py_0          71 KB
+    cryptography-2.9.2         |   py38h1ba5d50_0         556 KB
+    gast-0.3.3                 |             py_0          14 KB
+    google-auth-1.14.1         |             py_0          58 KB
+    google-auth-oauthlib-0.4.1 |             py_2          20 KB
+    google-pasta-0.2.0         |             py_0          46 KB
+    grpcio-1.27.2              |   py38hf8bcb03_0         1.3 MB
+    h5py-2.10.0                |   py38h7918eee_0         1.1 MB
+    idna-2.9                   |             py_1          49 KB
+    intel-openmp-2020.1        |              217         780 KB
+    keras-preprocessing-1.1.0  |             py_1          37 KB
+    libffi-3.3                 |       he6710b0_1          50 KB
+    libprotobuf-3.11.4         |       hd408876_0         2.9 MB
+    markdown-3.1.1             |           py38_0         116 KB
+    mkl-2020.1                 |              217       129.0 MB
+    mkl-service-2.3.0          |   py38he904b0f_0          62 KB
+    mkl_fft-1.0.15             |   py38ha843d7b_0         159 KB
+    mkl_random-1.1.1           |   py38h0573a6f_0         341 KB
+    ncurses-6.2                |       he6710b0_1         817 KB
+    numpy-1.18.1               |   py38h4f9e942_0           5 KB
+    numpy-base-1.18.1          |   py38hde5b4d6_1         4.2 MB
+    oauthlib-3.1.0             |             py_0          91 KB
+    opt_einsum-3.1.0           |             py_0          54 KB
+    pip-20.0.2                 |           py38_3         1.7 MB
+    protobuf-3.11.4            |   py38he6710b0_0         642 KB
+    pyasn1-0.4.8               |             py_0          57 KB
+    pyasn1-modules-0.2.7       |             py_0          68 KB
+    pycparser-2.20             |             py_0          92 KB
+    pyjwt-1.7.1                |           py38_0          33 KB
+    pyopenssl-19.1.0           |           py38_0          88 KB
+    pysocks-1.7.1              |           py38_0          28 KB
+    python-3.8.3               |       hcff3b4d_0        49.1 MB
+    requests-2.23.0            |           py38_0          93 KB
+    requests-oauthlib-1.3.0    |             py_0          23 KB
+    rsa-4.0                    |             py_0          29 KB
+    scipy-1.4.1                |   py38h0b6359f_0        14.8 MB
+    setuptools-46.4.0          |           py38_0         515 KB
+    six-1.14.0                 |           py38_0          27 KB
+    sqlite-3.31.1              |       h62c20be_1         1.1 MB
+    tensorboard-2.2.1          |     pyh532a8cf_0         2.4 MB
+    tensorboard-plugin-wit-1.6.0|             py_0         630 KB
+    tensorflow-2.2.0           |mkl_py38h6d3daf0_0           4 KB
+    tensorflow-base-2.2.0      |mkl_py38h5059a2d_0       127.2 MB
+    tensorflow-estimator-2.2.0 |     pyh208ff02_0         254 KB
+    termcolor-1.1.0            |           py38_1           8 KB
+    urllib3-1.25.8             |           py38_0         170 KB
+    werkzeug-1.0.1             |             py_0         240 KB
+    wrapt-1.12.1               |   py38h7b6447c_1          50 KB
+    xz-5.2.5                   |       h7b6447c_0         341 KB
+    ------------------------------------------------------------
+                                           Total:       342.0 MB
+
+The following NEW packages will be INSTALLED:
+
+  _libgcc_mutex      pkgs/main/linux-64::_libgcc_mutex-0.1-main
+  _tflow_select      pkgs/main/linux-64::_tflow_select-2.3.0-mkl
+  absl-py            pkgs/main/linux-64::absl-py-0.9.0-py38_0
+  astunparse         pkgs/main/noarch::astunparse-1.6.3-py_0
+  blas               pkgs/main/linux-64::blas-1.0-mkl
+  blinker            pkgs/main/linux-64::blinker-1.4-py38_0
+  c-ares             pkgs/main/linux-64::c-ares-1.15.0-h7b6447c_1001
+  ca-certificates    pkgs/main/linux-64::ca-certificates-2020.1.1-0
+  cachetools         pkgs/main/noarch::cachetools-3.1.1-py_0
+  certifi            pkgs/main/linux-64::certifi-2020.4.5.1-py38_0
+  cffi               pkgs/main/linux-64::cffi-1.14.0-py38he30daa8_1
+  chardet            pkgs/main/linux-64::chardet-3.0.4-py38_1003
+  click              pkgs/main/noarch::click-7.1.2-py_0
+  cryptography       pkgs/main/linux-64::cryptography-2.9.2-py38h1ba5d50_0
+  gast               pkgs/main/noarch::gast-0.3.3-py_0
+  google-auth        pkgs/main/noarch::google-auth-1.14.1-py_0
+  google-auth-oauth~ pkgs/main/noarch::google-auth-oauthlib-0.4.1-py_2
+  google-pasta       pkgs/main/noarch::google-pasta-0.2.0-py_0
+  grpcio             pkgs/main/linux-64::grpcio-1.27.2-py38hf8bcb03_0
+  h5py               pkgs/main/linux-64::h5py-2.10.0-py38h7918eee_0
+  hdf5               pkgs/main/linux-64::hdf5-1.10.4-hb1b8bf9_0
+  idna               pkgs/main/noarch::idna-2.9-py_1
+  intel-openmp       pkgs/main/linux-64::intel-openmp-2020.1-217
+  keras-preprocessi~ pkgs/main/noarch::keras-preprocessing-1.1.0-py_1
+  ld_impl_linux-64   pkgs/main/linux-64::ld_impl_linux-64-2.33.1-h53a641e_7
+  libedit            pkgs/main/linux-64::libedit-3.1.20181209-hc058e9b_0
+  libffi             pkgs/main/linux-64::libffi-3.3-he6710b0_1
+  libgcc-ng          pkgs/main/linux-64::libgcc-ng-9.1.0-hdf63c60_0
+  libgfortran-ng     pkgs/main/linux-64::libgfortran-ng-7.3.0-hdf63c60_0
+  libprotobuf        pkgs/main/linux-64::libprotobuf-3.11.4-hd408876_0
+  libstdcxx-ng       pkgs/main/linux-64::libstdcxx-ng-9.1.0-hdf63c60_0
+  markdown           pkgs/main/linux-64::markdown-3.1.1-py38_0
+  mkl                pkgs/main/linux-64::mkl-2020.1-217
+  mkl-service        pkgs/main/linux-64::mkl-service-2.3.0-py38he904b0f_0
+  mkl_fft            pkgs/main/linux-64::mkl_fft-1.0.15-py38ha843d7b_0
+  mkl_random         pkgs/main/linux-64::mkl_random-1.1.1-py38h0573a6f_0
+  ncurses            pkgs/main/linux-64::ncurses-6.2-he6710b0_1
+  numpy              pkgs/main/linux-64::numpy-1.18.1-py38h4f9e942_0
+  numpy-base         pkgs/main/linux-64::numpy-base-1.18.1-py38hde5b4d6_1
+  oauthlib           pkgs/main/noarch::oauthlib-3.1.0-py_0
+  openssl            pkgs/main/linux-64::openssl-1.1.1g-h7b6447c_0
+  opt_einsum         pkgs/main/noarch::opt_einsum-3.1.0-py_0
+  pip                pkgs/main/linux-64::pip-20.0.2-py38_3
+  protobuf           pkgs/main/linux-64::protobuf-3.11.4-py38he6710b0_0
+  pyasn1             pkgs/main/noarch::pyasn1-0.4.8-py_0
+  pyasn1-modules     pkgs/main/noarch::pyasn1-modules-0.2.7-py_0
+  pycparser          pkgs/main/noarch::pycparser-2.20-py_0
+  pyjwt              pkgs/main/linux-64::pyjwt-1.7.1-py38_0
+  pyopenssl          pkgs/main/linux-64::pyopenssl-19.1.0-py38_0
+  pysocks            pkgs/main/linux-64::pysocks-1.7.1-py38_0
+  python             pkgs/main/linux-64::python-3.8.3-hcff3b4d_0
+  readline           pkgs/main/linux-64::readline-8.0-h7b6447c_0
+  requests           pkgs/main/linux-64::requests-2.23.0-py38_0
+  requests-oauthlib  pkgs/main/noarch::requests-oauthlib-1.3.0-py_0
+  rsa                pkgs/main/noarch::rsa-4.0-py_0
+  scipy              pkgs/main/linux-64::scipy-1.4.1-py38h0b6359f_0
+  setuptools         pkgs/main/linux-64::setuptools-46.4.0-py38_0
+  six                pkgs/main/linux-64::six-1.14.0-py38_0
+  sqlite             pkgs/main/linux-64::sqlite-3.31.1-h62c20be_1
+  tensorboard        pkgs/main/noarch::tensorboard-2.2.1-pyh532a8cf_0
+  tensorboard-plugi~ pkgs/main/noarch::tensorboard-plugin-wit-1.6.0-py_0
+  tensorflow         pkgs/main/linux-64::tensorflow-2.2.0-mkl_py38h6d3daf0_0
+  tensorflow-base    pkgs/main/linux-64::tensorflow-base-2.2.0-mkl_py38h5059a2d_0
+  tensorflow-estima~ pkgs/main/noarch::tensorflow-estimator-2.2.0-pyh208ff02_0
+  termcolor          pkgs/main/linux-64::termcolor-1.1.0-py38_1
+  tk                 pkgs/main/linux-64::tk-8.6.8-hbc83047_0
+  urllib3            pkgs/main/linux-64::urllib3-1.25.8-py38_0
+  werkzeug           pkgs/main/noarch::werkzeug-1.0.1-py_0
+  wheel              pkgs/main/linux-64::wheel-0.34.2-py38_0
+  wrapt              pkgs/main/linux-64::wrapt-1.12.1-py38h7b6447c_1
+  xz                 pkgs/main/linux-64::xz-5.2.5-h7b6447c_0
+  zlib               pkgs/main/linux-64::zlib-1.2.11-h7b6447c_3
+
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages
+pysocks-1.7.1        | 28 KB     | ################################################################################################### | 100% 
+absl-py-0.9.0        | 165 KB    | ################################################################################################### | 100% 
+scipy-1.4.1          | 14.8 MB   | ################################################################################################### | 100% 
+sqlite-3.31.1        | 1.1 MB    | ################################################################################################### | 100% 
+cachetools-3.1.1     | 14 KB     | ################################################################################################### | 100% 
+pyasn1-0.4.8         | 57 KB     | ################################################################################################### | 100% 
+click-7.1.2          | 71 KB     | ################################################################################################### | 100% 
+pycparser-2.20       | 92 KB     | ################################################################################################### | 100% 
+wrapt-1.12.1         | 50 KB     | ################################################################################################### | 100% 
+opt_einsum-3.1.0     | 54 KB     | ################################################################################################### | 100% 
+chardet-3.0.4        | 174 KB    | ################################################################################################### | 100% 
+c-ares-1.15.0        | 89 KB     | ################################################################################################### | 100% 
+google-pasta-0.2.0   | 46 KB     | ################################################################################################### | 100% 
+oauthlib-3.1.0       | 91 KB     | ################################################################################################### | 100% 
+urllib3-1.25.8       | 170 KB    | ################################################################################################### | 100% 
+requests-oauthlib-1. | 23 KB     | ################################################################################################### | 100% 
+tensorflow-2.2.0     | 4 KB      | ################################################################################################### | 100% 
+python-3.8.3         | 49.1 MB   | ################################################################################################### | 100% 
+tensorboard-plugin-w | 630 KB    | ################################################################################################### | 100% 
+mkl_fft-1.0.15       | 159 KB    | ################################################################################################### | 100% 
+mkl_random-1.1.1     | 341 KB    | ################################################################################################### | 100% 
+tensorflow-estimator | 254 KB    | ################################################################################################### | 100% 
+mkl-service-2.3.0    | 62 KB     | ################################################################################################### | 100% 
+astunparse-1.6.3     | 17 KB     | ################################################################################################### | 100% 
+pyjwt-1.7.1          | 33 KB     | ################################################################################################### | 100% 
+_tflow_select-2.3.0  | 2 KB      | ################################################################################################### | 100% 
+google-auth-1.14.1   | 58 KB     | ################################################################################################### | 100% 
+numpy-1.18.1         | 5 KB      | ################################################################################################### | 100% 
+mkl-2020.1           | 129.0 MB  | ################################################################################################### | 100% 
+tensorflow-base-2.2. | 127.2 MB  | ################################################################################################### | 100% 
+cffi-1.14.0          | 225 KB    | ################################################################################################### | 100% 
+ncurses-6.2          | 817 KB    | ################################################################################################### | 100% 
+setuptools-46.4.0    | 515 KB    | ################################################################################################### | 100% 
+h5py-2.10.0          | 1.1 MB    | ################################################################################################### | 100% 
+termcolor-1.1.0      | 8 KB      | ################################################################################################### | 100% 
+rsa-4.0              | 29 KB     | ################################################################################################### | 100% 
+xz-5.2.5             | 341 KB    | ################################################################################################### | 100% 
+werkzeug-1.0.1       | 240 KB    | ################################################################################################### | 100% 
+grpcio-1.27.2        | 1.3 MB    | ################################################################################################### | 100% 
+keras-preprocessing- | 37 KB     | ################################################################################################### | 100% 
+libffi-3.3           | 50 KB     | ################################################################################################### | 100% 
+gast-0.3.3           | 14 KB     | ################################################################################################### | 100% 
+requests-2.23.0      | 93 KB     | ################################################################################################### | 100% 
+google-auth-oauthlib | 20 KB     | ################################################################################################### | 100% 
+intel-openmp-2020.1  | 780 KB    | ################################################################################################### | 100% 
+pip-20.0.2           | 1.7 MB    | ################################################################################################### | 100% 
+numpy-base-1.18.1    | 4.2 MB    | ################################################################################################### | 100% 
+pyopenssl-19.1.0     | 88 KB     | ################################################################################################### | 100% 
+libprotobuf-3.11.4   | 2.9 MB    | ################################################################################################### | 100% 
+protobuf-3.11.4      | 642 KB    | ################################################################################################### | 100% 
+pyasn1-modules-0.2.7 | 68 KB     | ################################################################################################### | 100% 
+idna-2.9             | 49 KB     | ################################################################################################### | 100% 
+six-1.14.0           | 27 KB     | ################################################################################################### | 100% 
+markdown-3.1.1       | 116 KB    | ################################################################################################### | 100% 
+cryptography-2.9.2   | 556 KB    | ################################################################################################### | 100% 
+tensorboard-2.2.1    | 2.4 MB    | ################################################################################################### | 100% 
+blinker-1.4          | 22 KB     | ################################################################################################### | 100% 
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: done
+#
+# To activate this environment, use
+#
+#     $ conda activate tensorflow
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+(base) dhankar@dhankar-1:~/_dc_all/tf$ conda create -n tensorflow_gpuenv tensorflow-gpu
+Collecting package metadata (current_repodata.json): done
+Solving environment: done
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 4.7.12
+  latest version: 4.8.3
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+
+
+## Package Plan ##
+
+  environment location: /home/dhankar/anaconda3/envs/tensorflow_gpuenv
+
+  added / updated specs:
+    - tensorflow-gpu
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    _tflow_select-2.1.0        |              gpu           2 KB
+    cudatoolkit-10.1.243       |       h6bb024c_0       347.4 MB
+    cudnn-7.6.5                |       cuda10.1_0       179.9 MB
+    cupti-10.1.168             |                0         1.4 MB
+    tensorflow-2.2.0           |gpu_py38hb782248_0           4 KB
+    tensorflow-base-2.2.0      |gpu_py38h83e3d50_0       179.3 MB
+    tensorflow-gpu-2.2.0       |       h0d30ee6_0           3 KB
+    ------------------------------------------------------------
+                                           Total:       708.0 MB
+
+The following NEW packages will be INSTALLED:
+
+  _libgcc_mutex      pkgs/main/linux-64::_libgcc_mutex-0.1-main
+  _tflow_select      pkgs/main/linux-64::_tflow_select-2.1.0-gpu
+  absl-py            pkgs/main/linux-64::absl-py-0.9.0-py38_0
+  astunparse         pkgs/main/noarch::astunparse-1.6.3-py_0
+  blas               pkgs/main/linux-64::blas-1.0-mkl
+  blinker            pkgs/main/linux-64::blinker-1.4-py38_0
+  c-ares             pkgs/main/linux-64::c-ares-1.15.0-h7b6447c_1001
+  ca-certificates    pkgs/main/linux-64::ca-certificates-2020.1.1-0
+  cachetools         pkgs/main/noarch::cachetools-3.1.1-py_0
+  certifi            pkgs/main/linux-64::certifi-2020.4.5.1-py38_0
+  cffi               pkgs/main/linux-64::cffi-1.14.0-py38he30daa8_1
+  chardet            pkgs/main/linux-64::chardet-3.0.4-py38_1003
+  click              pkgs/main/noarch::click-7.1.2-py_0
+  cryptography       pkgs/main/linux-64::cryptography-2.9.2-py38h1ba5d50_0
+  cudatoolkit        pkgs/main/linux-64::cudatoolkit-10.1.243-h6bb024c_0
+  cudnn              pkgs/main/linux-64::cudnn-7.6.5-cuda10.1_0
+  cupti              pkgs/main/linux-64::cupti-10.1.168-0
+  gast               pkgs/main/noarch::gast-0.3.3-py_0
+  google-auth        pkgs/main/noarch::google-auth-1.14.1-py_0
+  google-auth-oauth~ pkgs/main/noarch::google-auth-oauthlib-0.4.1-py_2
+  google-pasta       pkgs/main/noarch::google-pasta-0.2.0-py_0
+  grpcio             pkgs/main/linux-64::grpcio-1.27.2-py38hf8bcb03_0
+  h5py               pkgs/main/linux-64::h5py-2.10.0-py38h7918eee_0
+  hdf5               pkgs/main/linux-64::hdf5-1.10.4-hb1b8bf9_0
+  idna               pkgs/main/noarch::idna-2.9-py_1
+  intel-openmp       pkgs/main/linux-64::intel-openmp-2020.1-217
+  keras-preprocessi~ pkgs/main/noarch::keras-preprocessing-1.1.0-py_1
+  ld_impl_linux-64   pkgs/main/linux-64::ld_impl_linux-64-2.33.1-h53a641e_7
+  libedit            pkgs/main/linux-64::libedit-3.1.20181209-hc058e9b_0
+  libffi             pkgs/main/linux-64::libffi-3.3-he6710b0_1
+  libgcc-ng          pkgs/main/linux-64::libgcc-ng-9.1.0-hdf63c60_0
+  libgfortran-ng     pkgs/main/linux-64::libgfortran-ng-7.3.0-hdf63c60_0
+  libprotobuf        pkgs/main/linux-64::libprotobuf-3.11.4-hd408876_0
+  libstdcxx-ng       pkgs/main/linux-64::libstdcxx-ng-9.1.0-hdf63c60_0
+  markdown           pkgs/main/linux-64::markdown-3.1.1-py38_0
+  mkl                pkgs/main/linux-64::mkl-2020.1-217
+  mkl-service        pkgs/main/linux-64::mkl-service-2.3.0-py38he904b0f_0
+  mkl_fft            pkgs/main/linux-64::mkl_fft-1.0.15-py38ha843d7b_0
+  mkl_random         pkgs/main/linux-64::mkl_random-1.1.1-py38h0573a6f_0
+  ncurses            pkgs/main/linux-64::ncurses-6.2-he6710b0_1
+  numpy              pkgs/main/linux-64::numpy-1.18.1-py38h4f9e942_0
+  numpy-base         pkgs/main/linux-64::numpy-base-1.18.1-py38hde5b4d6_1
+  oauthlib           pkgs/main/noarch::oauthlib-3.1.0-py_0
+  openssl            pkgs/main/linux-64::openssl-1.1.1g-h7b6447c_0
+  opt_einsum         pkgs/main/noarch::opt_einsum-3.1.0-py_0
+  pip                pkgs/main/linux-64::pip-20.0.2-py38_3
+  protobuf           pkgs/main/linux-64::protobuf-3.11.4-py38he6710b0_0
+  pyasn1             pkgs/main/noarch::pyasn1-0.4.8-py_0
+  pyasn1-modules     pkgs/main/noarch::pyasn1-modules-0.2.7-py_0
+  pycparser          pkgs/main/noarch::pycparser-2.20-py_0
+  pyjwt              pkgs/main/linux-64::pyjwt-1.7.1-py38_0
+  pyopenssl          pkgs/main/linux-64::pyopenssl-19.1.0-py38_0
+  pysocks            pkgs/main/linux-64::pysocks-1.7.1-py38_0
+  python             pkgs/main/linux-64::python-3.8.3-hcff3b4d_0
+  readline           pkgs/main/linux-64::readline-8.0-h7b6447c_0
+  requests           pkgs/main/linux-64::requests-2.23.0-py38_0
+  requests-oauthlib  pkgs/main/noarch::requests-oauthlib-1.3.0-py_0
+  rsa                pkgs/main/noarch::rsa-4.0-py_0
+  scipy              pkgs/main/linux-64::scipy-1.4.1-py38h0b6359f_0
+  setuptools         pkgs/main/linux-64::setuptools-46.4.0-py38_0
+  six                pkgs/main/linux-64::six-1.14.0-py38_0
+  sqlite             pkgs/main/linux-64::sqlite-3.31.1-h62c20be_1
+  tensorboard        pkgs/main/noarch::tensorboard-2.2.1-pyh532a8cf_0
+  tensorboard-plugi~ pkgs/main/noarch::tensorboard-plugin-wit-1.6.0-py_0
+  tensorflow         pkgs/main/linux-64::tensorflow-2.2.0-gpu_py38hb782248_0
+  tensorflow-base    pkgs/main/linux-64::tensorflow-base-2.2.0-gpu_py38h83e3d50_0
+  tensorflow-estima~ pkgs/main/noarch::tensorflow-estimator-2.2.0-pyh208ff02_0
+  tensorflow-gpu     pkgs/main/linux-64::tensorflow-gpu-2.2.0-h0d30ee6_0
+  termcolor          pkgs/main/linux-64::termcolor-1.1.0-py38_1
+  tk                 pkgs/main/linux-64::tk-8.6.8-hbc83047_0
+  urllib3            pkgs/main/linux-64::urllib3-1.25.8-py38_0
+  werkzeug           pkgs/main/noarch::werkzeug-1.0.1-py_0
+  wheel              pkgs/main/linux-64::wheel-0.34.2-py38_0
+  wrapt              pkgs/main/linux-64::wrapt-1.12.1-py38h7b6447c_1
+  xz                 pkgs/main/linux-64::xz-5.2.5-h7b6447c_0
+  zlib               pkgs/main/linux-64::zlib-1.2.11-h7b6447c_3
+
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages
+tensorflow-gpu-2.2.0 | 3 KB      | ################################################################################################### | 100% 
+tensorflow-2.2.0     | 4 KB      | ################################################################################################### | 100% 
+_tflow_select-2.1.0  | 2 KB      | ################################################################################################### | 100% 
+cudnn-7.6.5          | 179.9 MB  | ################################################################################################### | 100% 
+cudatoolkit-10.1.243 | 347.4 MB  | ################################################################################################### | 100% 
+cupti-10.1.168       | 1.4 MB    | ################################################################################################### | 100% 
+tensorflow-base-2.2. | 179.3 MB  | ################################################################################################### | 100% 
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: done
+#
+# To activate this environment, use
+#
+#     $ conda activate tensorflow_gpuenv
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+(base) dhankar@dhankar-1:~/_dc_all/tf$ conda activate tensorflow_gpuenv
+(tensorflow_gpuenv) dhankar@dhankar-1:~/_dc_all/tf$ 
+(tensorflow_gpuenv) dhankar@dhankar-1:~/_dc_all/tf$ pip freeze
+absl-py==0.9.0
+astunparse==1.6.3
+blinker==1.4
+cachetools==3.1.1
+certifi==2020.4.5.1
+cffi==1.14.0
+chardet==3.0.4
+click==7.1.2
+cryptography==2.9.2
+gast==0.3.3
+google-auth==1.14.1
+google-auth-oauthlib==0.4.1
+google-pasta==0.2.0
+grpcio==1.27.2
+h5py==2.10.0
+idna==2.9
+Keras-Preprocessing==1.1.0
+Markdown==3.1.1
+mkl-fft==1.0.15
+mkl-random==1.1.1
+mkl-service==2.3.0
+numpy==1.18.1
+oauthlib==3.1.0
+opt-einsum==3.1.0
+protobuf==3.11.4
+pyasn1==0.4.8
+pyasn1-modules==0.2.7
+pycparser==2.20
+PyJWT==1.7.1
+pyOpenSSL==19.1.0
+PySocks==1.7.1
+requests==2.23.0
+requests-oauthlib==1.3.0
+rsa==4.0
+scipy==1.4.1
+six==1.14.0
+tensorboard==2.2.1
+tensorboard-plugin-wit==1.6.0
+tensorflow==2.2.0
+tensorflow-estimator==2.2.0
+termcolor==1.1.0
+urllib3==1.25.8
+Werkzeug==1.0.1
+wrapt==1.12.1
+(tensorflow_gpuenv) dhankar@dhankar-1:~/_dc_all/tf$ 
+(tensorflow_gpuenv) dhankar@dhankar-1:~/_dc_all/tf$ 
+
+
+
+
