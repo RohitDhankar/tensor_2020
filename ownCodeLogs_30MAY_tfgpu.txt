@@ -426,4 +426,449 @@ wrapt==1.12.1
 
 
 
+##########FOO_Bar--- tracking the GPU --- 
+pciBusID: 0000:01:00.0 name: GeForce GTX 1650 computeCapability: 7.5
+coreClock: 1.71GHz coreCount: 14 deviceMemorySize: 3.82GiB deviceMemoryBandwidth: 119.24GiB/s
+#
+#
+[I 18:22:42.190 NotebookApp] Saving file at /tf_test_1.ipynb
+2020-06-03 18:23:33.269384: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcuda.so.1
+2020-06-03 18:23:33.488035: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-06-03 18:23:33.488253: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1561] Found device 0 with properties: 
+pciBusID: 0000:01:00.0 name: GeForce GTX 1650 computeCapability: 7.5
+coreClock: 1.71GHz coreCount: 14 deviceMemorySize: 3.82GiB deviceMemoryBandwidth: 119.24GiB/s
+2020-06-03 18:23:33.530200: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.1
+2020-06-03 18:23:33.844930: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10
+2020-06-03 18:23:34.056566: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcufft.so.10
+2020-06-03 18:23:34.178435: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcurand.so.10
+2020-06-03 18:23:34.856709: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusolver.so.10
+2020-06-03 18:23:35.265848: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusparse.so.10
+2020-06-03 18:23:36.757517: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2020-06-03 18:23:36.757862: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-06-03 18:23:36.758752: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-06-03 18:23:36.759441: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1703] Adding visible gpu devices: 0
+2020-06-03 18:23:36.792591: I tensorflow/core/platform/cpu_feature_guard.cc:143] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2020-06-03 18:23:36.944347: I tensorflow/core/platform/profile_utils/cpu_utils.cc:102] CPU Frequency: 3000000000 Hz
+2020-06-03 18:23:36.951247: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x563734bc0980 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-06-03 18:23:36.951317: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2020-06-03 18:23:36.974891: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-06-03 18:23:36.975687: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1561] Found device 0 with properties: 
+pciBusID: 0000:01:00.0 name: GeForce GTX 1650 computeCapability: 7.5
+coreClock: 1.71GHz coreCount: 14 deviceMemorySize: 3.82GiB deviceMemoryBandwidth: 119.24GiB/s
+2020-06-03 18:23:36.975803: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.1
+2020-06-03 18:23:36.975858: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10
+2020-06-03 18:23:36.975940: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcufft.so.10
+2020-06-03 18:23:36.975990: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcurand.so.10
+2020-06-03 18:23:36.976041: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusolver.so.10
+2020-06-03 18:23:36.976090: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusparse.so.10
+2020-06-03 18:23:36.976142: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2020-06-03 18:23:36.976315: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-06-03 18:23:36.977119: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-06-03 18:23:36.977806: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1703] Adding visible gpu devices: 0
+2020-06-03 18:23:36.997650: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.1
+2020-06-03 18:23:37.200950: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1102] Device interconnect StreamExecutor with strength 1 edge matrix:
+2020-06-03 18:23:37.201028: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1108]      0 
+2020-06-03 18:23:37.201054: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1121] 0:   N 
+2020-06-03 18:23:37.201390: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-06-03 18:23:37.202240: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-06-03 18:23:37.203042: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-06-03 18:23:37.203774: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1247] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 2953 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1650, pci bus id: 0000:01:00.0, compute capability: 7.5)
+2020-06-03 18:23:37.240302: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x5637384a20c0 initialized for platform CUDA (this does not guarantee that XLA will be used). Devices:
+2020-06-03 18:23:37.240385: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): GeForce GTX 1650, Compute Capability 7.5
+2020-06-03 18:24:18.299658: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-06-03 18:24:18.299822: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1561] Found device 0 with properties: 
+pciBusID: 0000:01:00.0 name: GeForce GTX 1650 computeCapability: 7.5
+coreClock: 1.71GHz coreCount: 14 deviceMemorySize: 3.82GiB deviceMemoryBandwidth: 119.24GiB/s
+2020-06-03 18:24:18.299858: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.1
+2020-06-03 18:24:18.299874: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10
+2020-06-03 18:24:18.299885: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcufft.so.10
+2020-06-03 18:24:18.299894: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcurand.so.10
+2020-06-03 18:24:18.299903: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusolver.so.10
+2020-06-03 18:24:18.299911: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusparse.so.10
+2020-06-03 18:24:18.299920: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2020-06-03 18:24:18.299960: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-06-03 18:24:18.300093: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-06-03 18:24:18.300201: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1703] Adding visible gpu devices: 0
+2020-06-03 18:24:18.300221: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1102] Device interconnect StreamExecutor with strength 1 edge matrix:
+2020-06-03 18:24:18.300227: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1108]      0 
+2020-06-03 18:24:18.300230: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1121] 0:   N 
+2020-06-03 18:24:18.300277: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-06-03 18:24:18.300409: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-06-03 18:24:18.300524: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1247] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 2953 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1650, pci bus id: 0000:01:00.0, compute capability: 7.5)
+2020-06-03 18:24:35.082842: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-06-03 18:24:35.083075: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1561] Found device 0 with properties: 
+pciBusID: 0000:01:00.0 name: GeForce GTX 1650 computeCapability: 7.5
+coreClock: 1.71GHz coreCount: 14 deviceMemorySize: 3.82GiB deviceMemoryBandwidth: 119.24GiB/s
+2020-06-03 18:24:35.083125: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.1
+2020-06-03 18:24:35.083134: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10
+2020-06-03 18:24:35.083143: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcufft.so.10
+2020-06-03 18:24:35.083164: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcurand.so.10
+2020-06-03 18:24:35.083172: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusolver.so.10
+2020-06-03 18:24:35.083180: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusparse.so.10
+2020-06-03 18:24:35.083187: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2020-06-03 18:24:35.083224: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-06-03 18:24:35.083364: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-06-03 18:24:35.083495: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1703] Adding visible gpu devices: 0
+2020-06-03 18:24:35.083513: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1102] Device interconnect StreamExecutor with strength 1 edge matrix:
+2020-06-03 18:24:35.083517: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1108]      0 
+2020-06-03 18:24:35.083521: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1121] 0:   N 
+2020-06-03 18:24:35.083569: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-06-03 18:24:35.083718: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-06-03 18:24:35.083849: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1247] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 2953 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1650, pci bus id: 0000:01:00.0, compute capability: 7.5)
+[I 18:24:42.188 NotebookApp] Saving file at /tf_test_1.ipynb
+[I 18:24:48.822 NotebookApp] Saving file at /tf_test_1.ipynb
+[I 18:24:49.116 NotebookApp] Saving file at /tf_test_1.ipynb
+[I 18:24:49.517 NotebookApp] Saving file at /tf_test_1.ipynb
+[I 19:17:31.488 NotebookApp] Saving file at /tf_test_1.ipynb
+[I 19:17:31.840 NotebookApp] Saving file at /tf_test_1.ipynb
+[I 19:18:42.190 NotebookApp] Saving file at /tf_test_1.ipynb
+[I 19:20:24.154 NotebookApp] Saving file at /tf_test_1.ipynb
+[I 19:20:24.384 NotebookApp] Saving file at /tf_test_1.ipynb
+[I 19:20:24.706 NotebookApp] Saving file at /tf_test_1.ipynb
+[I 19:22:11.385 NotebookApp] Saving file at /tf_test_1.ipynb
+[I 19:22:11.622 NotebookApp] Saving file at /tf_test_1.ipynb
+[I 19:22:11.995 NotebookApp] Saving file at /tf_test_1.ipynb
+[I 19:22:28.232 NotebookApp] Saving file at /tf_test_1.ipynb
+[I 19:22:28.486 NotebookApp] Saving file at /tf_test_1.ipynb
+[I 19:22:28.870 NotebookApp] Saving file at /tf_test_1.ipynb
+[I 19:22:42.189 NotebookApp] Saving file at /tf_test_1.ipynb
+[I 19:22:49.256 NotebookApp] Kernel interrupted: 2b7a472a-531f-4df4-94f6-cbd5080e2996
+[I 19:23:10.232 NotebookApp] Saving file at /tf_test_1.ipynb
+[I 19:23:10.445 NotebookApp] Saving file at /tf_test_1.ipynb
+[I 19:23:10.808 NotebookApp] Saving file at /tf_test_1.ipynb
+
+I 00:05:32.715 NotebookApp] Kernel started: c128e694-aa79-41ba-b3a6-b0be3567c22a
+2020-06-04 00:05:41.313722: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcuda.so.1
+2020-06-04 00:05:41.356049: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-06-04 00:05:41.356270: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1561] Found device 0 with properties: 
+pciBusID: 0000:01:00.0 name: GeForce GTX 1650 computeCapability: 7.5
+coreClock: 1.71GHz coreCount: 14 deviceMemorySize: 3.82GiB deviceMemoryBandwidth: 119.24GiB/s
+2020-06-04 00:05:41.356417: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.1
+2020-06-04 00:05:41.357359: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10
+2020-06-04 00:05:41.358302: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcufft.so.10
+2020-06-04 00:05:41.358520: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcurand.so.10
+2020-06-04 00:05:41.359489: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusolver.so.10
+2020-06-04 00:05:41.360043: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusparse.so.10
+2020-06-04 00:05:41.362139: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2020-06-04 00:05:41.362213: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-06-04 00:05:41.362418: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-06-04 00:05:41.362573: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1703] Adding visible gpu devices: 0
+2020-06-04 00:05:52.618808: I tensorflow/core/platform/cpu_feature_guard.cc:143] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2020-06-04 00:05:52.640198: I tensorflow/core/platform/profile_utils/cpu_utils.cc:102] CPU Frequency: 3000000000 Hz
+2020-06-04 00:05:52.640524: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x558731c66650 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-06-04 00:05:52.640560: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2020-06-04 00:05:52.640697: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-06-04 00:05:52.640903: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1561] Found device 0 with properties: 
+pciBusID: 0000:01:00.0 name: GeForce GTX 1650 computeCapability: 7.5
+coreClock: 1.71GHz coreCount: 14 deviceMemorySize: 3.82GiB deviceMemoryBandwidth: 119.24GiB/s
+2020-06-04 00:05:52.640930: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.1
+2020-06-04 00:05:52.640939: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10
+2020-06-04 00:05:52.640948: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcufft.so.10
+2020-06-04 00:05:52.640973: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcurand.so.10
+2020-06-04 00:05:52.640993: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusolver.so.10
+2020-06-04 00:05:52.641017: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusparse.so.10
+2020-06-04 00:05:52.641041: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2020-06-04 00:05:52.641130: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-06-04 00:05:52.641384: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-06-04 00:05:52.641560: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1703] Adding visible gpu devices: 0
+2020-06-04 00:05:52.641579: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.1
+2020-06-04 00:05:52.696117: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1102] Device interconnect StreamExecutor with strength 1 edge matrix:
+2020-06-04 00:05:52.696138: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1108]      0 
+2020-06-04 00:05:52.696143: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1121] 0:   N 
+2020-06-04 00:05:52.696244: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-06-04 00:05:52.696426: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-06-04 00:05:52.696589: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-06-04 00:05:52.696742: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1247] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 2953 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1650, pci bus id: 0000:01:00.0, compute capability: 7.5)
+2020-06-04 00:05:52.697850: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x5587353212e0 initialized for platform CUDA (this does not guarantee that XLA will be used). Devices:
+2020-06-04 00:05:52.697861: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): GeForce GTX 1650, Compute Capability 7.5
+2020-06-04 00:06:21.066907: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-06-04 00:06:21.067078: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1561] Found device 0 with properties: 
+pciBusID: 0000:01:00.0 name: GeForce GTX 1650 computeCapability: 7.5
+coreClock: 1.71GHz coreCount: 14 deviceMemorySize: 3.82GiB deviceMemoryBandwidth: 119.24GiB/s
+2020-06-04 00:06:21.067113: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.1
+2020-06-04 00:06:21.067124: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10
+2020-06-04 00:06:21.067134: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcufft.so.10
+2020-06-04 00:06:21.067141: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcurand.so.10
+2020-06-04 00:06:21.067150: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusolver.so.10
+2020-06-04 00:06:21.067158: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusparse.so.10
+2020-06-04 00:06:21.067167: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2020-06-04 00:06:21.067212: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-06-04 00:06:21.067359: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-06-04 00:06:21.067480: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1703] Adding visible gpu devices: 0
+2020-06-04 00:06:21.067500: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1102] Device interconnect StreamExecutor with strength 1 edge matrix:
+2020-06-04 00:06:21.067505: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1108]      0 
+2020-06-04 00:06:21.067508: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1121] 0:   N 
+2020-06-04 00:06:21.067555: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-06-04 00:06:21.067701: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-06-04 00:06:21.067829: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1247] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 2953 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1650, pci bus id: 0000:01:00.0, compute capability: 7.5)
+Device mapping:
+/job:localhost/replica:0/task:0/device:XLA_CPU:0 -> device: XLA_CPU device
+/job:localhost/replica:0/task:0/device:GPU:0 -> device: 0, name: GeForce GTX 1650, pci bus id: 0000:01:00.0, compute capability: 7.5
+/job:localhost/replica:0/task:0/device:XLA_GPU:0 -> device: XLA_GPU device
+[I 00:07:13.765 NotebookApp] Saving file at /tf_test_1.ipynb
+[I 00:07:14.015 NotebookApp] Saving file at /tf_test_1.ipynb
+[I 00:07:14.294 NotebookApp] Saving file at /tf_test_1.ipynb
+[I 00:07:14.547 NotebookApp] Saving file at /tf_test_1.ipynb
+2020-06-04 00:07:22.971155: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10
+[I 00:07:32.719 NotebookApp] Saving file at /tf_test_1.ipynb
+2020-06-04 00:07:39.884263: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-06-04 00:07:39.884466: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1561] Found device 0 with properties: 
+pciBusID: 0000:01:00.0 name: GeForce GTX 1650 computeCapability: 7.5
+coreClock: 1.71GHz coreCount: 14 deviceMemorySize: 3.82GiB deviceMemoryBandwidth: 119.24GiB/s
+2020-06-04 00:07:39.884507: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.1
+2020-06-04 00:07:39.884521: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10
+2020-06-04 00:07:39.884533: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcufft.so.10
+2020-06-04 00:07:39.884543: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcurand.so.10
+2020-06-04 00:07:39.884555: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusolver.so.10
+2020-06-04 00:07:39.884567: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusparse.so.10
+2020-06-04 00:07:39.884581: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2020-06-04 00:07:39.884629: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-06-04 00:07:39.884836: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-06-04 00:07:39.884987: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1703] Adding visible gpu devices: 0
+2020-06-04 00:07:39.885012: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1102] Device interconnect StreamExecutor with strength 1 edge matrix:
+2020-06-04 00:07:39.885018: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1108]      0 
+2020-06-04 00:07:39.885023: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1121] 0:   N 
+2020-06-04 00:07:39.885094: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-06-04 00:07:39.885281: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-06-04 00:07:39.885443: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1247] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 2953 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1650, pci bus id: 0000:01:00.0, compute capability: 7.5)
+Device mapping:
+/job:localhost/replica:0/task:0/device:XLA_CPU:0 -> device: XLA_CPU device
+/job:localhost/replica:0/task:0/device:GPU:0 -> device: 0, name: GeForce GTX 1650, pci bus id: 0000:01:00.0, compute capability: 7.5
+/job:localhost/replica:0/task:0/device:XLA_GPU:0 -> device: XLA_GPU device
+MatMul: (MatMul): /job:localhost/replica:0/task:0/device:GPU:0
+2020-06-04 00:07:40.311604: I tensorflow/core/common_runtime/placer.cc:114] MatMul: (MatMul): /job:localhost/replica:0/task:0/device:GPU:0
+Const: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+2020-06-04 00:07:40.311687: I tensorflow/core/common_runtime/placer.cc:114] Const: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+Const_1: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+2020-06-04 00:07:40.311722: I tensorflow/core/common_runtime/placer.cc:114] Const_1: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+[I 00:09:32.717 NotebookApp] Saving file at /tf_test_1.ipynb
+
+
+
+00:13:32.716 NotebookApp] Saving file at /tf_test_1.ipynb
+iterator: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+2020-06-04 00:14:26.858422: I tensorflow/core/common_runtime/placer.cc:114] iterator: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+iterator_1: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+2020-06-04 00:14:26.858442: I tensorflow/core/common_runtime/placer.cc:114] iterator_1: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+sequential_dense_matmul_readvariableop_resource: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+2020-06-04 00:14:26.858448: I tensorflow/core/common_runtime/placer.cc:114] sequential_dense_matmul_readvariableop_resource: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+sequential_dense_biasadd_readvariableop_resource: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+2020-06-04 00:14:26.858454: I tensorflow/core/common_runtime/placer.cc:114] sequential_dense_biasadd_readvariableop_resource: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+sequential_dense_1_matmul_readvariableop_resource: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+2020-06-04 00:14:26.858459: I tensorflow/core/common_runtime/placer.cc:114] sequential_dense_1_matmul_readvariableop_resource: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+sequential_dense_1_biasadd_readvariableop_resource: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+2020-06-04 00:14:26.858464: I tensorflow/core/common_runtime/placer.cc:114] sequential_dense_1_biasadd_readvariableop_resource: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+IteratorGetNext: (IteratorGetNext): /job:localhost/replica:0/task:0/device:CPU:0
+2020-06-04 00:14:26.858491: I tensorflow/core/common_runtime/placer.cc:114] IteratorGetNext: (IteratorGetNext): /job:localhost/replica:0/task:0/device:CPU:0
+sequential/Cast: (Cast): /job:localhost/replica:0/task:0/device:GPU:0
+2020-06-04 00:14:26.858498: I tensorflow/core/common_runtime/placer.cc:114] sequential/Cast: (Cast): /job:localhost/replica:0/task:0/device:GPU:0
+sequential/flatten/Reshape: (Reshape): /job:localhost/replica:0/task:0/device:GPU:0
+2020-06-04 00:14:26.858504: I tensorflow/core/common_runtime/placer.cc:114] sequential/flatten/Reshape: (Reshape): /job:localhost/replica:0/task:0/device:GPU:0
+sequential/dense/MatMul/ReadVariableOp: (ReadVariableOp): /job:localhost/replica:0/task:0/device:GPU:0
+2020-06-04 00:14:26.858509: I tensorflow/core/common_runtime/placer.cc:114] sequential/dense/MatMul/ReadVariableOp: (ReadVariableOp): /job:localhost/replica:0/task:0/device:GPU:0
+sequential/dense/MatMul: (MatMul): /job:localhost/replica:0/task:0/device:GPU:0
+2020-06-04 00:14:26.858516: I tensorflow/core/common_runtime/placer.cc:114] sequential/dense/MatMul: (MatMul): /job:localhost/replica:0/task:0/device:GPU:0
+sequential/dense/BiasAdd/ReadVariableOp: (ReadVariableOp): /job:localhost/replica:0/task:0/device:GPU:0
+2020-06-04 00:14:26.858521: I tensorflow/core/common_runtime/placer.cc:114] sequential/dense/BiasAdd/ReadVariableOp: (ReadVariableOp): /job:localhost/replica:0/task:0/device:GPU:0
+sequential/dense/BiasAdd: (BiasAdd): /job:localhost/replica:0/task:0/device:GPU:0
+2020-06-04 00:14:26.858527: I tensorflow/core/common_runtime/placer.cc:114] sequential/dense/BiasAdd: (BiasAdd): /job:localhost/replica:0/task:0/device:GPU:0
+sequential/dense/Relu: (Relu): /job:localhost/replica:0/task:0/device:GPU:0
+2020-06-04 00:14:26.858532: I tensorflow/core/common_runtime/placer.cc:114] sequential/dense/Relu: (Relu): /job:localhost/replica:0/task:0/device:GPU:0
+sequential/dense_1/MatMul/ReadVariableOp: (ReadVariableOp): /job:localhost/replica:0/task:0/device:GPU:0
+2020-06-04 00:14:26.858538: I tensorflow/core/common_runtime/placer.cc:114] sequential/dense_1/MatMul/ReadVariableOp: (ReadVariableOp): /job:localhost/replica:0/task:0/device:GPU:0
+sequential/dense_1/MatMul: (MatMul): /job:localhost/replica:0/task:0/device:GPU:0
+2020-06-04 00:14:26.858545: I tensorflow/core/common_runtime/placer.cc:114] sequential/dense_1/MatMul: (MatMul): /job:localhost/replica:0/task:0/device:GPU:0
+sequential/dense_1/BiasAdd/ReadVariableOp: (ReadVariableOp): /job:localhost/replica:0/task:0/device:GPU:0
+2020-06-04 00:14:26.858551: I tensorflow/core/common_runtime/placer.cc:114] sequential/dense_1/BiasAdd/ReadVariableOp: (ReadVariableOp): /job:localhost/replica:0/task:0/device:GPU:0
+sequential/dense_1/BiasAdd: (BiasAdd): /job:localhost/replica:0/task:0/device:GPU:0
+2020-06-04 00:14:26.858557: I tensorflow/core/common_runtime/placer.cc:114] sequential/dense_1/BiasAdd: (BiasAdd): /job:localhost/replica:0/task:0/device:GPU:0
+sequential/dense_1/Softmax: (Softmax): /job:localhost/replica:0/task:0/device:GPU:0
+2020-06-04 00:14:26.858563: I tensorflow/core/common_runtime/placer.cc:114] sequential/dense_1/Softmax: (Softmax): /job:localhost/replica:0/task:0/device:GPU:0
+Identity: (Identity): /job:localhost/replica:0/task:0/device:GPU:0
+2020-06-04 00:14:26.858568: I tensorflow/core/common_runtime/placer.cc:114] Identity: (Identity): /job:localhost/replica:0/task:0/device:GPU:0
+identity_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:GPU:0
+2020-06-04 00:14:26.858575: I tensorflow/core/common_runtime/placer.cc:114] identity_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:GPU:0
+Const: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+2020-06-04 00:14:26.858582: I tensorflow/core/common_runtime/placer.cc:114] Const: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+sequential/flatten/Const: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+2020-06-04 00:14:26.858588: I tensorflow/core/common_runtime/placer.cc:114] sequential/flatten/Const: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+iterator: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+2020-06-04 00:14:42.639220: I tensorflow/core/common_runtime/placer.cc:114] iterator: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+iterator_1: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+2020-06-04 00:14:42.639237: I tensorflow/core/common_runtime/placer.cc:114] iterator_1: (_Arg): /job:localhost/replica:0/task:0/device:CPU:0
+sequential_dense_matmul_readvariableop_resource: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+2020-06-04 00:14:42.639242: I tensorflow/core/common_runtime/placer.cc:114] sequential_dense_matmul_readvariableop_resource: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+sequential_dense_biasadd_readvariableop_resource: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+2020-06-04 00:14:42.639284: I tensorflow/core/common_runtime/placer.cc:114] sequential_dense_biasadd_readvariableop_resource: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+sequential_dense_1_matmul_readvariableop_resource: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+2020-06-04 00:14:42.639290: I tensorflow/core/common_runtime/placer.cc:114] sequential_dense_1_matmul_readvariableop_resource: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+sequential_dense_1_biasadd_readvariableop_resource: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+2020-06-04 00:14:42.639295: I tensorflow/core/common_runtime/placer.cc:114] sequential_dense_1_biasadd_readvariableop_resource: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+assignaddvariableop_resource: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+2020-06-04 00:14:42.639300: I tensorflow/core/common_runtime/placer.cc:114] assignaddvariableop_resource: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+assignaddvariableop_1_resource: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+2020-06-04 00:14:42.639306: I tensorflow/core/common_runtime/placer.cc:114] assignaddvariableop_1_resource: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+assignaddvariableop_2_resource: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+2020-06-04 00:14:42.639311: I tensorflow/core/common_runtime/placer.cc:114] assignaddvariableop_2_resource: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+assignaddvariableop_3_resource: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+2020-06-04 00:14:42.639316: I tensorflow/core/common_runtime/placer.cc:114] assignaddvariableop_3_resource: (_Arg): /job:localhost/replica:0/task:0/device:GPU:0
+IteratorGetNext: (IteratorGetNext): /job:localhost/replica:0/task:0/device:CPU:0
+2020-06-04 00:14:42.639323: I tensorflow/core/common_runtime/placer.cc:114] IteratorGetNext: (IteratorGetNext): /job:localhost/replica:0/task:0/device:CPU:0
+ExpandDims: (ExpandDims): /job:localhost/replica:0/task:0/device:GPU:0
+2020-06-04 00:14:42.639345: I tensorflow/core/common_runtime/placer.cc:114] ExpandDims: (ExpandDims): /job:localhost/replica:0/task:0/device:GPU:0
+sequential/Cast: (Cast): /job:localhost/replica:0/task:0/device:GPU:0
+2020-06-04 00:14:42.639350: I tensorflow/core/common_runtime/placer.cc:114] sequential/Cast: (Cast): /job:localhost/replica:0/task:0/device:GPU:0
+sequential/flatten/Reshape: (Reshape): /job:localhost/replica:0/task:0/device:GPU:0
+2020-06-04 00:14:42.639354: I tensorflow/core/common_runtime/placer.cc:114] sequential/flatten/Reshape: (Reshape): /job:localhost/replica:0/task:0/device:GPU:0
+sequential/dense/MatMul/ReadVariableOp: (ReadVariableOp): /job:localhost/replica:0/task:0/device:GPU:0
+2020-06-04 00:14:42.639383: I tensorflow/core/common_runtime/placer.cc:114] sequential/dense/MatMul/ReadVariableOp: (ReadVariableOp): /job:localhost/replica:0/task:0/device:GPU:0
+sequential/dense/MatMul: (MatMul): /job:localhost/replica:0/task:0/device:GPU:0
+2020-06-04 00:14:42.639391: I tensorflow/core/common_runtime/placer.cc:114] sequential/dense/MatMul: (MatMul): /job:localhost/replica:0/task:0/device:GPU:0
+sequential/dense/BiasAdd/ReadVariableOp: (ReadVariableOp): /job:localhost/replica:0/task:0/device:GPU:0
+2020-06-04 00:14:42.639397: I tensorflow/core/common_runtime/placer.cc:114] sequential/dense/BiasAdd/ReadVariableOp: (ReadVariableOp): /job:localhost/replica:0/task:0/device:GPU:0
+sequential/dense/BiasAdd: (BiasAdd): /job:localhost/replica:0/task:0/device:GPU:0
+2020-06-04 00:14:42.639417: I tensorflow/core/common_runtime/placer.cc:114] sequential/dense/BiasAdd: (BiasAdd): /job:localhost/replica:0/task:0/device:GPU:0
+sequential/dense/Relu: (Relu): /job:localhost/replica:0/task:0/device:GPU:0
+2020-06-04 00:14:42.639439: I tensorflow/core/common_runtime/placer.cc:114] sequential/dense/Relu: (Relu): /job:localhost/replica:0/task:0/device:GPU:0
+sequential/dense_1/MatMul/ReadVariableOp: (ReadVariableOp): /job:localhost/replica:0/task:0/device:GPU:0
+2020-06-04 00:14:42.639444: I tensorflow/core/common_runtime/placer.cc:114] sequential/dense_1/MatMul/ReadVariableOp: (ReadVariableOp): /job:localhost/replica:0/task:0/device:GPU:0
+sequential/dense_1/MatMul: (MatMul): /job:localhost/replica:0/task:0/device:GPU:0
+2020-06-04 00:14:42.639449: I tensorflow/core/common_runtime/placer.cc:114] sequential/dense_1/MatMul: (MatMul): /job:localhost/replica:0/task:0/device:GPU:0
+sequential/dense_1/BiasAdd/ReadVariableOp: (ReadVariableOp): /job:localhost/replica:0/task:0/device:GPU:0
+2020-06-04 00:14:42.639453: I tensorflow/core/common_runtime/placer.cc:114] sequential/dense_1/BiasAdd/ReadVariableOp: (ReadVariableOp): /job:localhost/replica:0/task:0/device:GPU:0
+sequential/dense_1/BiasAdd: (BiasAdd): /job:localhost/replica:0/task:0/device:GPU:0
+2020-06-04 00:14:42.639459: I tensorflow/core/common_runtime/placer.cc:114] sequential/dense_1/BiasAdd: (BiasAdd): /job:localhost/replica:0/task:0/device:GPU:0
+sequential/dense_1/Softmax: (Softmax): /job:localhost/replica:0/task:0/device:GPU:0
+2020-06-04 00:14:42.639465: I tensorflow/core/common_runtime/placer.cc:114] sequential/dense_1/Softmax: (Softmax): /job:localhost/replica:0/task:0/device:GPU:0
+Cast: (Cast): /job:localhost/replica:0/task:0/device:GPU:0
+2020-06-04 00:14:42.639471: I tensorflow/core/common_runtime/placer.cc:114] Cast: (Cast): /job:localhost/replica:0/task:0/device:GPU:0
+sparse_categorical_crossentropy/Cast: (Cast): /job:localhost/replica:0/task:0/device:GPU:0
+2020-06-04 00:14:42.639476: I tensorflow/core/common_runtime/placer.cc:114] sparse_categorical_crossentropy/Cast: (Cast): /job:localhost/replica:0/task:0/device:GPU:0
+sparse_categorical_crossentropy/Shape: (Shape): /job:localhost/replica:0/task:0/device:GPU:0
+2020-06-04 00:14:42.639482: I tensorflow/core/common_runtime/placer.cc:114] sparse_categorical_crossentropy/Shape: (Shape): /job:localhost/replica:0/task:0/device:GPU:0
+sparse_categorical_crossentropy/Reshape: (Reshape): /job:localhost/replica:0/task:0/device:GPU:0
+2020-06-04 00:14:42.639489: I tensorflow/core/common_runtime/placer.cc:114] sparse_categorical_crossentropy/Reshape: (Reshape): /job:localhost/replica:0/task:0/device:GPU:0
+sparse_categorical_crossentropy/strided_slice: (StridedSlice): /job:localhost/replica:0/task:0/device:GPU:0
+2020-06-04 00:14:42.639494: I tensorflow/core/common_runtime/placer.cc:114] sparse_categorical_crossentropy/strided_slice: (StridedSlice): /job:localhost/replica:0/task:0/device:GPU:0
+sparse_categorical_crossentropy/Reshape_1/shape: (Pack): /job:localhost/replica:0/task:0/device:GPU:0
+2020-06-04 00:14:42.639501: I tensorflow/core/common_runtime/placer.cc:114] sparse_categorical_crossentropy/Reshape_1/shape: (Pack): /job:localhost/replica:0/task:0/device:GPU:0
+sparse_categorical_crossentropy/Reshape_1: (Reshape): /job:localhost/replica:0/task:0/device:GPU:0
+2020-06-04 00:14:42.639508: I tensorflow/core/common_runtime/placer.cc:114] sparse_categorical_crossentropy/Reshape_1: (Reshape): /job:localhost/replica:0/task:0/device:GPU:0
+sparse_categorical_crossentropy/SparseSoftmaxCrossEntropyWithLogits/Shape: (Shape): /job:localhost/replica:0/task:0/device:GPU:0
+2020-06-04 00:14:42.639514: I tensorflow/core/common_runtime/placer.cc:114] sparse_categorical_crossentropy/SparseSoftmaxCrossEntropyWithLogits/Shape: (Shape): /job:localhost/replica:0/task:0/device:GPU:0
+sparse_categorical_crossentropy/SparseSoftmaxCrossEntropyWithLogits/SparseSoftmaxCrossEntropyWithLogits: (SparseSoftmaxCrossEntropyWithLogits): /job:localhost/replica:0/task:0/device:GPU:0
+2020-06-04 00:14:42.639521: I tensorflow/core/common_runtime/placer.cc:114] sparse_categorical_crossentropy/SparseSoftmaxCrossEntropyWithLogits/SparseSoftmaxCrossEntropyWithLogits: (SparseSoftmaxCrossEntropyWithLogits): /job:localhost/replica:0/task:0/device:GPU:0
+sparse_categorical_crossentropy/weighted_loss/Mul: (Mul): /job:localhost/replica:0/task:0/device:GPU:0
+2020-06-04 00:14:42.639528: I tensorflow/core/common_runtime/placer.cc:114] sparse_categorical_crossentropy/weighted_loss/Mul: (Mul): /job:localhost/replica:0/task:0/device:GPU:0
+sparse_categorical_crossentropy/weighted_loss/Sum: (Sum): /job:localhost/replica:0/task:0/device:GPU:0
+2020-06-04 00:14:42.639534: I tensorflow/core/common_runtime/placer.cc:114] sparse_categorical_crossentropy/weighted_loss/Sum: (Sum): /job:localhost/replica:0/task:0/device:GPU:0
+sparse_categorical_crossentropy/weighted_loss/num_elements: (Size): /job:localhost/replica:0/task:0/device:GPU:0
+2020-06-04 00:14:42.639541: I tensorflow/core/common_runtime/placer.cc:114] sparse_categorical_crossentropy/weighted_loss/num_elements: (Size): /job:localhost/replica:0/task:0/device:GPU:0
+sparse_categorical_crossentropy/weighted_loss/num_elements/Cast: (Cast): /job:localhost/replica:0/task:0/device:GPU:0
+2020-06-04 00:14:42.639547: I tensorflow/core/common_runtime/placer.cc:114] sparse_categorical_crossentropy/weighted_loss/num_elements/Cast: (Cast): /job:localhost/replica:0/task:0/device:GPU:0
+sparse_categorical_crossentropy/weighted_loss/Sum_1: (Sum): /job:localhost/replica:0/task:0/device:GPU:0
+2020-06-04 00:14:42.639554: I tensorflow/core/common_runtime/placer.cc:114] sparse_categorical_crossentropy/weighted_loss/Sum_1: (Sum): /job:localhost/replica:0/task:0/device:GPU:0
+sparse_categorical_crossentropy/weighted_loss/value: (DivNoNan): /job:localhost/replica:0/task:0/device:GPU:0
+2020-06-04 00:14:42.639560: I tensorflow/core/common_runtime/placer.cc:114] sparse_categorical_crossentropy/weighted_loss/value: (DivNoNan): /job:localhost/replica:0/task:0/device:GPU:0
+Shape: (Shape): /job:localhost/replica:0/task:0/device:GPU:0
+2020-06-04 00:14:42.639567: I tensorflow/core/common_runtime/placer.cc:114] Shape: (Shape): /job:localhost/replica:0/task:0/device:GPU:0
+strided_slice: (StridedSlice): /job:localhost/replica:0/task:0/device:GPU:0
+2020-06-04 00:14:42.639573: I tensorflow/core/common_runtime/placer.cc:114] strided_slice: (StridedSlice): /job:localhost/replica:0/task:0/device:GPU:0
+Cast_1: (Cast): /job:localhost/replica:0/task:0/device:GPU:0
+2020-06-04 00:14:42.639580: I tensorflow/core/common_runtime/placer.cc:114] Cast_1: (Cast): /job:localhost/replica:0/task:0/device:GPU:0
+Mul: (Mul): /job:localhost/replica:0/task:0/device:GPU:0
+2020-06-04 00:14:42.639585: I tensorflow/core/common_runtime/placer.cc:114] Mul: (Mul): /job:localhost/replica:0/task:0/device:GPU:0
+Sum: (Sum): /job:localhost/replica:0/task:0/device:GPU:0
+2020-06-04 00:14:42.639592: I tensorflow/core/common_runtime/placer.cc:114] Sum: (Sum): /job:localhost/replica:0/task:0/device:GPU:0
+AssignAddVariableOp: (AssignAddVariableOp): /job:localhost/replica:0/task:0/device:GPU:0
+2020-06-04 00:14:42.639597: I tensorflow/core/common_runtime/placer.cc:114] AssignAddVariableOp: (AssignAddVariableOp): /job:localhost/replica:0/task:0/device:GPU:0
+Sum_1: (Sum): /job:localhost/replica:0/task:0/device:GPU:0
+2020-06-04 00:14:42.639603: I tensorflow/core/common_runtime/placer.cc:114] Sum_1: (Sum): /job:localhost/replica:0/task:0/device:GPU:0
+AssignAddVariableOp_1: (AssignAddVariableOp): /job:localhost/replica:0/task:0/device:GPU:0
+2020-06-04 00:14:42.639609: I tensorflow/core/common_runtime/placer.cc:114] AssignAddVariableOp_1: (AssignAddVariableOp): /job:localhost/replica:0/task:0/device:GPU:0
+Cast_2: (Cast): /job:localhost/replica:0/task:0/device:GPU:0
+2020-06-04 00:14:42.639615: I tensorflow/core/common_runtime/placer.cc:114] Cast_2: (Cast): /job:localhost/replica:0/task:0/device:GPU:0
+Squeeze: (Squeeze): /job:localhost/replica:0/task:0/device:GPU:0
+2020-06-04 00:14:42.639621: I tensorflow/core/common_runtime/placer.cc:114] Squeeze: (Squeeze): /job:localhost/replica:0/task:0/device:GPU:0
+ArgMax: (ArgMax): /job:localhost/replica:0/task:0/device:GPU:0
+2020-06-04 00:14:42.639627: I tensorflow/core/common_runtime/placer.cc:114] ArgMax: (ArgMax): /job:localhost/replica:0/task:0/device:GPU:0
+Cast_3: (Cast): /job:localhost/replica:0/task:0/device:GPU:0
+2020-06-04 00:14:42.639633: I tensorflow/core/common_runtime/placer.cc:114] Cast_3: (Cast): /job:localhost/replica:0/task:0/device:GPU:0
+Equal: (Equal): /job:localhost/replica:0/task:0/device:GPU:0
+2020-06-04 00:14:42.639639: I tensorflow/core/common_runtime/placer.cc:114] Equal: (Equal): /job:localhost/replica:0/task:0/device:GPU:0
+Cast_4: (Cast): /job:localhost/replica:0/task:0/device:GPU:0
+2020-06-04 00:14:42.639646: I tensorflow/core/common_runtime/placer.cc:114] Cast_4: (Cast): /job:localhost/replica:0/task:0/device:GPU:0
+Sum_2: (Sum): /job:localhost/replica:0/task:0/device:GPU:0
+2020-06-04 00:14:42.639651: I tensorflow/core/common_runtime/placer.cc:114] Sum_2: (Sum): /job:localhost/replica:0/task:0/device:GPU:0
+AssignAddVariableOp_2: (AssignAddVariableOp): /job:localhost/replica:0/task:0/device:GPU:0
+2020-06-04 00:14:42.639657: I tensorflow/core/common_runtime/placer.cc:114] AssignAddVariableOp_2: (AssignAddVariableOp): /job:localhost/replica:0/task:0/device:GPU:0
+Size: (Size): /job:localhost/replica:0/task:0/device:GPU:0
+2020-06-04 00:14:42.639664: I tensorflow/core/common_runtime/placer.cc:114] Size: (Size): /job:localhost/replica:0/task:0/device:GPU:0
+Cast_5: (Cast): /job:localhost/replica:0/task:0/device:GPU:0
+2020-06-04 00:14:42.639670: I tensorflow/core/common_runtime/placer.cc:114] Cast_5: (Cast): /job:localhost/replica:0/task:0/device:GPU:0
+AssignAddVariableOp_3: (AssignAddVariableOp): /job:localhost/replica:0/task:0/device:GPU:0
+2020-06-04 00:14:42.639675: I tensorflow/core/common_runtime/placer.cc:114] AssignAddVariableOp_3: (AssignAddVariableOp): /job:localhost/replica:0/task:0/device:GPU:0
+div_no_nan/ReadVariableOp: (ReadVariableOp): /job:localhost/replica:0/task:0/device:GPU:0
+2020-06-04 00:14:42.639681: I tensorflow/core/common_runtime/placer.cc:114] div_no_nan/ReadVariableOp: (ReadVariableOp): /job:localhost/replica:0/task:0/device:GPU:0
+div_no_nan/ReadVariableOp_1: (ReadVariableOp): /job:localhost/replica:0/task:0/device:GPU:0
+2020-06-04 00:14:42.639687: I tensorflow/core/common_runtime/placer.cc:114] div_no_nan/ReadVariableOp_1: (ReadVariableOp): /job:localhost/replica:0/task:0/device:GPU:0
+div_no_nan: (DivNoNan): /job:localhost/replica:0/task:0/device:GPU:0
+2020-06-04 00:14:42.639693: I tensorflow/core/common_runtime/placer.cc:114] div_no_nan: (DivNoNan): /job:localhost/replica:0/task:0/device:GPU:0
+Identity: (Identity): /job:localhost/replica:0/task:0/device:GPU:0
+2020-06-04 00:14:42.639699: I tensorflow/core/common_runtime/placer.cc:114] Identity: (Identity): /job:localhost/replica:0/task:0/device:GPU:0
+div_no_nan_1/ReadVariableOp: (ReadVariableOp): /job:localhost/replica:0/task:0/device:GPU:0
+2020-06-04 00:14:42.639704: I tensorflow/core/common_runtime/placer.cc:114] div_no_nan_1/ReadVariableOp: (ReadVariableOp): /job:localhost/replica:0/task:0/device:GPU:0
+div_no_nan_1/ReadVariableOp_1: (ReadVariableOp): /job:localhost/replica:0/task:0/device:GPU:0
+2020-06-04 00:14:42.639710: I tensorflow/core/common_runtime/placer.cc:114] div_no_nan_1/ReadVariableOp_1: (ReadVariableOp): /job:localhost/replica:0/task:0/device:GPU:0
+div_no_nan_1: (DivNoNan): /job:localhost/replica:0/task:0/device:GPU:0
+2020-06-04 00:14:42.639716: I tensorflow/core/common_runtime/placer.cc:114] div_no_nan_1: (DivNoNan): /job:localhost/replica:0/task:0/device:GPU:0
+Identity_1: (Identity): /job:localhost/replica:0/task:0/device:GPU:0
+2020-06-04 00:14:42.639723: I tensorflow/core/common_runtime/placer.cc:114] Identity_1: (Identity): /job:localhost/replica:0/task:0/device:GPU:0
+Identity_2: (Identity): /job:localhost/replica:0/task:0/device:GPU:0
+2020-06-04 00:14:42.639730: I tensorflow/core/common_runtime/placer.cc:114] Identity_2: (Identity): /job:localhost/replica:0/task:0/device:GPU:0
+Identity_3: (Identity): /job:localhost/replica:0/task:0/device:GPU:0
+2020-06-04 00:14:42.639736: I tensorflow/core/common_runtime/placer.cc:114] Identity_3: (Identity): /job:localhost/replica:0/task:0/device:GPU:0
+identity_2_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:GPU:0
+2020-06-04 00:14:42.639743: I tensorflow/core/common_runtime/placer.cc:114] identity_2_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:GPU:0
+identity_3_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:GPU:0
+2020-06-04 00:14:42.639749: I tensorflow/core/common_runtime/placer.cc:114] identity_3_RetVal: (_Retval): /job:localhost/replica:0/task:0/device:GPU:0
+Const: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+2020-06-04 00:14:42.639756: I tensorflow/core/common_runtime/placer.cc:114] Const: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+ExpandDims/dim: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+2020-06-04 00:14:42.639762: I tensorflow/core/common_runtime/placer.cc:114] ExpandDims/dim: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+sequential/flatten/Const: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+2020-06-04 00:14:42.639769: I tensorflow/core/common_runtime/placer.cc:114] sequential/flatten/Const: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+sparse_categorical_crossentropy/Reshape/shape: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+2020-06-04 00:14:42.639775: I tensorflow/core/common_runtime/placer.cc:114] sparse_categorical_crossentropy/Reshape/shape: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+sparse_categorical_crossentropy/strided_slice/stack: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+2020-06-04 00:14:42.639782: I tensorflow/core/common_runtime/placer.cc:114] sparse_categorical_crossentropy/strided_slice/stack: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+sparse_categorical_crossentropy/strided_slice/stack_1: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+2020-06-04 00:14:42.639788: I tensorflow/core/common_runtime/placer.cc:114] sparse_categorical_crossentropy/strided_slice/stack_1: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+sparse_categorical_crossentropy/strided_slice/stack_2: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+2020-06-04 00:14:42.639795: I tensorflow/core/common_runtime/placer.cc:114] sparse_categorical_crossentropy/strided_slice/stack_2: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+sparse_categorical_crossentropy/Reshape_1/shape/0: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+2020-06-04 00:14:42.639801: I tensorflow/core/common_runtime/placer.cc:114] sparse_categorical_crossentropy/Reshape_1/shape/0: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+sparse_categorical_crossentropy/weighted_loss/Cast/x: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+2020-06-04 00:14:42.639808: I tensorflow/core/common_runtime/placer.cc:114] sparse_categorical_crossentropy/weighted_loss/Cast/x: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+sparse_categorical_crossentropy/weighted_loss/Const: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+2020-06-04 00:14:42.639815: I tensorflow/core/common_runtime/placer.cc:114] sparse_categorical_crossentropy/weighted_loss/Const: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+sparse_categorical_crossentropy/weighted_loss/Const_1: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+2020-06-04 00:14:42.639821: I tensorflow/core/common_runtime/placer.cc:114] sparse_categorical_crossentropy/weighted_loss/Const_1: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+strided_slice/stack: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+2020-06-04 00:14:42.639828: I tensorflow/core/common_runtime/placer.cc:114] strided_slice/stack: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+strided_slice/stack_1: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+2020-06-04 00:14:42.639834: I tensorflow/core/common_runtime/placer.cc:114] strided_slice/stack_1: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+strided_slice/stack_2: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+2020-06-04 00:14:42.639840: I tensorflow/core/common_runtime/placer.cc:114] strided_slice/stack_2: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+Const_1: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+2020-06-04 00:14:42.639846: I tensorflow/core/common_runtime/placer.cc:114] Const_1: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+Const_2: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+2020-06-04 00:14:42.639853: I tensorflow/core/common_runtime/placer.cc:114] Const_2: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+ArgMax/dimension: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+2020-06-04 00:14:42.639859: I tensorflow/core/common_runtime/placer.cc:114] ArgMax/dimension: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+Const_3: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+2020-06-04 00:14:42.639871: I tensorflow/core/common_runtime/placer.cc:114] Const_3: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+[I 00:15:32.717 NotebookApp] Saving file at /tf_test_1.ipynb
+
+
 
