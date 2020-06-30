@@ -1,0 +1,77 @@
+ase) dhankar@dhankar-1:~/_dc_all/tf$ conda activate tensorflow_gpuenv
+(tensorflow_gpuenv) dhankar@dhankar-1:~/_dc_all/tf$ 
+(tensorflow_gpuenv) dhankar@dhankar-1:~/_dc_all/tf$ python
+Python 3.8.3 (default, May 19 2020, 18:47:26) 
+[GCC 7.3.0] :: Anaconda, Inc. on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> 
+>>> import tensorflow as tf
+>>> 
+>>> tf.test.is_gpu_available()
+WARNING:tensorflow:From <stdin>:1: is_gpu_available (from tensorflow.python.framework.test_util) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.config.list_physical_devices('GPU')` instead.
+2020-06-30 13:45:52.939941: I tensorflow/core/platform/cpu_feature_guard.cc:143] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2020-06-30 13:45:53.087681: I tensorflow/core/platform/profile_utils/cpu_utils.cc:102] CPU Frequency: 3000000000 Hz
+2020-06-30 13:45:53.098570: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x5633d059eec0 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-06-30 13:45:53.098641: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2020-06-30 13:45:53.142636: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcuda.so.1
+2020-06-30 13:45:53.319355: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-06-30 13:45:53.319584: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1561] Found device 0 with properties: 
+pciBusID: 0000:01:00.0 name: GeForce GTX 1650 computeCapability: 7.5
+coreClock: 1.71GHz coreCount: 14 deviceMemorySize: 3.82GiB deviceMemoryBandwidth: 119.24GiB/s
+2020-06-30 13:45:53.350814: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.1
+2020-06-30 13:45:53.665759: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10
+2020-06-30 13:45:53.908824: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcufft.so.10
+2020-06-30 13:45:53.988703: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcurand.so.10
+2020-06-30 13:45:54.350169: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusolver.so.10
+2020-06-30 13:45:54.435259: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusparse.so.10
+2020-06-30 13:45:55.067832: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2020-06-30 13:45:55.068168: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-06-30 13:45:55.069062: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-06-30 13:45:55.069782: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1703] Adding visible gpu devices: 0
+2020-06-30 13:45:55.081693: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.1
+2020-06-30 13:45:55.252485: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1102] Device interconnect StreamExecutor with strength 1 edge matrix:
+2020-06-30 13:45:55.252512: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1108]      0 
+2020-06-30 13:45:55.252518: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1121] 0:   N 
+2020-06-30 13:45:55.252650: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-06-30 13:45:55.252904: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-06-30 13:45:55.253135: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-06-30 13:45:55.253349: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1247] Created TensorFlow device (/device:GPU:0 with 3169 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1650, pci bus id: 0000:01:00.0, compute capability: 7.5)
+2020-06-30 13:45:55.303309: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x5633d41d72b0 initialized for platform CUDA (this does not guarantee that XLA will be used). Devices:
+2020-06-30 13:45:55.303380: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): GeForce GTX 1650, Compute Capability 7.5
+True
+>>> 
+>>> 
+>>> tf.config.list_physical_devices('GPU')
+2020-06-30 13:48:42.907345: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-06-30 13:48:42.909060: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1561] Found device 0 with properties: 
+pciBusID: 0000:01:00.0 name: GeForce GTX 1650 computeCapability: 7.5
+coreClock: 1.71GHz coreCount: 14 deviceMemorySize: 3.82GiB deviceMemoryBandwidth: 119.24GiB/s
+2020-06-30 13:48:42.909207: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.1
+2020-06-30 13:48:42.909272: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10
+2020-06-30 13:48:42.909325: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcufft.so.10
+2020-06-30 13:48:42.909419: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcurand.so.10
+2020-06-30 13:48:42.909470: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusolver.so.10
+2020-06-30 13:48:42.909525: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusparse.so.10
+2020-06-30 13:48:42.909578: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2020-06-30 13:48:42.909779: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-06-30 13:48:42.910632: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-06-30 13:48:42.911379: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1703] Adding visible gpu devices: 0
+[PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU')]
+>>> 
+>>> 
+(base) dhankar@dhankar-1:~/_dc_all/cv20/cv2020/yolo_v3$ git clone https://github.com/theAIGuysCode/yolo-v3.git
+Cloning into 'yolo-v3'...
+remote: Enumerating objects: 188, done.
+remote: Total 188 (delta 0), reused 0 (delta 0), pack-reused 188
+Receiving objects: 100% (188/188), 66.46 MiB | 12.47 MiB/s, done.
+Resolving deltas: 100% (77/77), done.
+(base) dhankar@dhankar-1:~/_dc_all/cv20/cv2020/yolo_v3$ 
+(base) dhankar@dhankar-1:~/_dc_all/cv20/cv2020/yolo_v3$ ls
+yolo-v3
+(base) dhankar@dhankar-1:~/_dc_all/cv20/cv2020/yolo_v3$ cd yolo-v3/
+(base) dhankar@dhankar-1:~/_dc_all/cv20/cv2020/yolo_v3/yolo-v3$ ls
+data  detections  detect.py  LICENSE  load_weights.py  meme_example.jpg  README.md  requirements.txt  utils.py  weights  yolo_v3.py
+(base) dhankar@dhankar-1:~/_dc_all/cv20/cv2020/yolo_v3/yolo-v3$ 
+(base) dhankar@dhankar-1:~/_dc_all/cv20/cv2020/yolo_v3/yolo-v3$ 
